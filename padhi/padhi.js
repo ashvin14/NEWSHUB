@@ -3,12 +3,12 @@
 
 
 var url="https://webhose.io/search?token=e7c28e93-dbaa-4d6f-98c6-e36072647787&format=json&q=india"
-console.log()
+
 $.getJSON(url,function gotData(object){
 	     
 
 		var headln=object.posts;
-		for (var i=0;i<headln.length;i++)
+		//for (var i=0;i<headln.length;i++)
 		//console.log(headln[i].title);
 	$("#news1").html("<h4>"+headln[0].title+"</h4>")
 			
