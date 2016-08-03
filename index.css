@@ -1,0 +1,38 @@
+h2 {
+	text-align:center;
+}
+h1{
+	font-family:cursive;
+
+}
+
+button {
+	padding-left:20%;
+	text-align:bottom;
+}
+span {
+	display: inline-block;
+	padding :0.5em;
+	
+}
+
+.jumbotron{
+
+	border: solid 5px black;
+
+}
+.breadcrumb{
+
+	border: solid 5px black;
+
+}
+body {
+	background-image:url('firs.jpg') ;
+
+}
+address {
+   
+   font-size: 20px;
+   color:#9a9696;
+
+}
