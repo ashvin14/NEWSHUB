@@ -26,7 +26,7 @@
             </div>
             <ol class="breadcrumb">
                   <li><a href="#">Home</a></li>
-                  <li><a href="#">About us</a></li>
+                  
                   
             </ol>
           <div class="jumbotron " style="text-align:center;height:70%;">
@@ -34,17 +34,29 @@
               <p class="visible" style="color: #A8A8A8;">Be Ahead Of Everyone !</p>
               <hr></hr>
               <br>
-              <div clas="temp">
-
-              </div>
+              
+          
                 <div class="btn-group">
-                    <button type="button" class="btn btn-lg btn-primary">English</button>
-                    
-          </div> 
-          <div class="btn-group">
-                    <button type="button" class="btn btn-lg btn-warning">Hindi</button>
-                    
+                <form action="english.html">
+                    <button input type="submit" class="btn btn-lg btn-primary" onClick="store_topic()" id="click" role="button">submit</button>
+                    <div class="select">
+						  <label>
+						  <h3>select topic</h3>
+						    <select id="topic">
+						    <option class="option">sports</option>
+						    <option class="option">realestate</option>
+						    <option class="option">politics</option>
+						    <option class="option">world</option>
+						    
+
+						      </select>
+						    </label>
+					</div>
+                </form>    
           </div>
+        
+          
+
 
 
 
@@ -55,7 +67,7 @@
         </div>
         
         <script src="index.js"></script>
-
+       <script serc="english.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </body>
